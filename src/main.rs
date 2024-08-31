@@ -1,5 +1,7 @@
 fn main() {
-    println!("Hello, world!");
+    // Variables
+    let num: u8 = 20;
+    println!(" Num is : {}", num);
 }
 
 //snake_case: all lowercase with underscores between words
