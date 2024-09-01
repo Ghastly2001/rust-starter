@@ -11,7 +11,9 @@ fn main() {
     let string_litreal: &str = "Divyansh";
     println!("This is String Litreal : {}", string_litreal);
 
-    let new_string = String::from("Divyansh is coding in Rust");
+    //2. String -> String is a growable, mutable, owned, UTF-8 encoded string type
+    let mut new_string: String = String::from("Divyansh is coding in Rust");
+    new_string.push_str(" and learning it");
     println!("This is String: {}", new_string);
 }
 
