@@ -1,3 +1,7 @@
+//snake_case: all lowercase with underscores between words
+//cargo: package manager and build system
+//cargo build: compile the program
+
 fn main() {
     // 1. Variables
     let mut num: u16 = 20; //immutable variable to make it mutable use mut keyword
@@ -23,8 +27,14 @@ fn main() {
         "{} becomes {} at the age of {}",
         real_name, hero_name, hero_age
     );
+
+    //4. Functions
+    let num1: u8 = 10;
+    let num2: u8 = 20;
+    let avg: u8 = average(num1, num2);
+    println!("Average of {} and {} is {}", num1, num2, avg);
 }
 
-//snake_case: all lowercase with underscores between words
-//cargo: package manager and build system
-//cargo build: compile the program
+fn average(num1: u8, num2: u8) -> u8 {
+    return (num1 + num2) / 2;
+}
