@@ -51,6 +51,14 @@ fn main() {
     // let str1: String = String::from("Hello");
     // let str2 = str1;
     // println!("The value of str1 is: {} ans str2 is: {}", str1, str2); //will throw error
+
+    let mem: u8 = 5;
+    process_mem(mem);
+    println!("The value of mem is: {}", mem);
+}
+
+fn process_mem(mem: u8) {
+    println!("The value of mem is: {}", mem);
 }
 
 fn average(num1: u8, num2: u8) -> u8 {
