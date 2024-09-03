@@ -37,6 +37,20 @@ fn main() {
     let name: &str = "Ghastly";
     let uppercase_name: String = uppercase_name(name);
     print!("Upppercase Name of {} is {}", name, uppercase_name);
+
+    // 5. Ownership & Rules
+    // 5.1. Each value in Rust has a variable that’s called its owner.
+    // 5.2. There can only be one owner at a time.
+    // 5.3. When the owner goes out of scope, the value will be dropped.
+
+    let num1: u8 = 10;
+    let num2: u8 = num1;
+
+    println!("The value of num1 is: {} and num2 is {}", num1, num2); //num1 is copied to num2
+
+    // let str1: String = String::from("Hello");
+    // let str2 = str1;
+    // println!("The value of str1 is: {} ans str2 is: {}", str1, str2); //will throw error
 }
 
 fn average(num1: u8, num2: u8) -> u8 {
