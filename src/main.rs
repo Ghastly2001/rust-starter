@@ -54,11 +54,11 @@ fn main() {
 
     let mem: u8 = 5;
     process_mem(mem);
-    println!("The value of mem is-> {}", mem);
+    println!("The value of mem is -> {}", mem);
 }
 
 fn process_mem(mem: u8) {
-    println!("The value of mem is-> {}", mem);
+    println!("The value of mem is -> {}", mem);
 }
 
 fn average(num1: u8, num2: u8) -> u8 {
