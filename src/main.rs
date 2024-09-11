@@ -52,13 +52,13 @@ fn main() {
     // let str2 = str1;
     // println!("The value of str1 is: {} ans str2 is: {}", str1, str2); //will throw error
 
-    let mem: u8 = 5;
-    process_mem(mem);
-    println!("The value of mem is -> {}", mem);
+    let hut: u8 = 5;
+    process_mem(hut);
+    println!("The value of mem is -> {}", hut);
 }
 
-fn process_mem(mem: u8) {
-    println!("The value of mem is -> {}", mem);
+fn process_mem(hut: u8) {
+    println!("The value of mem is -> {}", hut);
 }
 
 fn average(num1: u8, num2: u8) -> u8 {
