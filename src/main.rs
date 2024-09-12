@@ -55,6 +55,9 @@ fn main() {
     let hut: u8 = 5;
     process_mem(hut);
     println!("The value of mem is -> {}", hut);
+
+    let someString: string = String::from("hello");
+    let (s2, len) = calculate_length(someString); //ownership Transfer
 }
 
 fn process_mem(hut: u8) {
