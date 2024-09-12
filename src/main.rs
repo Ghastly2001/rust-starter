@@ -56,8 +56,14 @@ fn main() {
     process_mem(hut);
     println!("The value of mem is -> {}", hut);
 
-    let someString: string = String::from("hello");
+    let someString: String = String::from("hello");
     let (s2, len) = calculate_length(someString); //ownership Transfer
+    println!("The length is {}", len);
+}
+
+fn calculate_length(s: String) -> usize {
+    let length = s.len();
+    return (s, length); //return s.len();
 }
 
 fn process_mem(hut: u8) {
