@@ -52,9 +52,9 @@ fn main() {
     // let str2 = str1;
     // println!("The value of str1 is: {} ans str2 is: {}", str1, str2); //will throw error
 
-    let hut: u8 = 5;
-    process_mem(hut);
-    println!("The value of mem is -> {}", hut);
+    let mem: u8 = 5;
+    process_mem(mem);
+    println!("The value of mem is -> {}", mem);
 
     let countChars: String = String::from("hello"); //s1 owner
     let (s2, len) = calculate_length(countChars); //ownership Transfer
@@ -66,8 +66,8 @@ fn calculate_length(s2: String) -> (String, usize) {
     return (s2, length); //return s.len();
 }
 
-fn process_mem(hut: u8) {
-    println!("The value of mem is -> {}", hut);
+fn process_mem(mem: u8) {
+    println!("The value of mem is: {}", mem);
 }
 
 fn average(num1: u8, num2: u8) -> u8 {
