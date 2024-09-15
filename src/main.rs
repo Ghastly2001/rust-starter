@@ -54,7 +54,7 @@ fn main() {
 
     let mem: u8 = 5;
     process_mem(mem);
-    println!("The value of mem is -> {}", mem);
+    println!("The value of mem is: {}", mem);
 
     let countChars: String = String::from("hello"); //s1 owner
     let (s2, len) = calculate_length(countChars); //ownership Transfer
