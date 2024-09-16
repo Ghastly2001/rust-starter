@@ -67,7 +67,7 @@ fn calculate_length(s2: String) -> (String, usize) {
 }
 
 fn process_mem(mem: u8) {
-    println!("The value of mem is: {}", mem);
+    println!("The value of mem is: {mem}");
 }
 
 fn average(num1: u8, num2: u8) -> u8 {
