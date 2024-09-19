@@ -36,7 +36,7 @@ fn main() {
 
     let name: &str = "Ghastly";
     let uppercase_name: String = uppercase_name(name);
-    print!("Upppercase Name of {} is {}", name, uppercase_name);
+    print!("Upppercase Name of {name} is {uppercase_name}"  );
 
     // 5. Ownership & Rules
     // 5.1. Each value in Rust has a variable that’s called its owner.
