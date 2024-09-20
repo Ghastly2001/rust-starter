@@ -24,8 +24,8 @@ fn main() {
     let hero: (&str, &str, u8) = ("Spiderman", "Peter Parker", 24);
     let (hero_name, real_name, hero_age) = hero;
     println!(
-        "{} becomes {} at the age of {}",
-        real_name, hero_name, hero_age
+        "{real_name} becomes {} at the age of {}",
+         hero_name, hero_age
     );
 
     //4. Functions
@@ -36,7 +36,7 @@ fn main() {
 
     let name: &str = "Ghastly";
     let uppercase_name: String = uppercase_name(name);
-    print!("Upppercase Name of {name} is {uppercase_name}"  );
+    print!("Upppercase Name of {name} is {uppercase_name}");
 
     // 5. Ownership & Rules
     // 5.1. Each value in Rust has a variable that’s called its owner.
