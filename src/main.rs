@@ -32,7 +32,7 @@ fn main() {
     let num1: u8 = 10;
     let num2: u8 = 20;
     let avg: u8 = average(num1, num2);
-    println!("The average of {num1} and {} is {}", num2, avg);
+    println!("The average of {num1} and {num2} is {avg}");
 
     let name: &str = "Ghastly";
     let uppercase_name: String = uppercase_name(name);
