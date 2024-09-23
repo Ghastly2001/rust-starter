@@ -23,10 +23,7 @@ fn main() {
     //3. Tuples
     let hero: (&str, &str, u8) = ("Spiderman", "Peter Parker", 24);
     let (hero_name, real_name, hero_age) = hero;
-    println!(
-        "{real_name} becomes {} at the age of {}",
-        hero_name, hero_age
-    );
+    println!("{real_name} becomes {hero_name} at the age of {hero_age}");
 
     //4. Functions
     let num1: u8 = 10;
