@@ -18,7 +18,7 @@ fn main() {
     //2. String -> String is a growable, mutable, owned, UTF-8 encoded string type, String is heap allocated
     let mut new_string: String = String::from("Divyansh is coding in Rust");
     new_string.push_str(" and learning it");
-    println!("This is String: {}", new_string);
+    println!("This is String: {new_string}");
 
     //3. Tuples
     let hero: (&str, &str, u8) = ("Spiderman", "Peter Parker", 24);
