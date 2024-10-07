@@ -13,9 +13,9 @@ fn main() {
     //1. String literals -> By default string literals are of type &str, string literals are immutable and fixed size stored in stack
 
     let string_litreal: &str = "Divyansh";
-    println!("This is String Litreal : {string_litreal}" );
+    println!("This is String Litreal : {string_litreal}");
 
-    //2. String -> String is a growable, mutable, owned, UTF-8 encoded string type, String is heap allocated
+    //2. String -> String is a growable, mutable, owned, String is heap allocated
     let mut new_string: String = String::from("Divyansh is coding in Rust");
     new_string.push_str(" and learning it");
     println!("This is String: {new_string}");
